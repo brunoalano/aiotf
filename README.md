@@ -12,17 +12,24 @@
     <img src="https://img.shields.io/travis/brunoalano/aiotf/master.svg?style=flat-square"
       alt="Build Status" />
   </a>
+
   <!-- Test Coverage -->
   <a href="https://codecov.io/github/brunoalano/aiotf">
     <img src="https://img.shields.io/codecov/c/github/brunoalano/aiotf/master.svg?style=flat-square"
       alt="Test Coverage" />
+  </a>
+
+  <!-- Downloads !-->
+  <a href="http://pepy.tech/badge/aiotf">
+    <img src="http://pepy.tech/badge/aiotf"
+      alt="Downloads" />
+  </a>
 </div>
 
 ## Features
 - __asyncio:__ better use of your cpu idle time
 - __pep8 compliant:__ following best code standards
-- __tests:__ full tested to keep up-to-date on socketcluster
-- __high-performance prediction:__ we use `aio-grpc` when possible
+- __high-performance prediction:__ we use `aio-grpc`
 
 ## Example
 ```python
