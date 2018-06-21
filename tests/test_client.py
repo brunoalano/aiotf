@@ -5,7 +5,6 @@ import aiotf
 
 @pytest.mark.asyncio
 async def test_client_connection():
-  client = aiotf.AsyncTensorflowServing('localhost', 9000)
   async with aiotf.AsyncTensorflowServing('localhost:9000') as client:
     x = np.random.rand(10, 391, 21)
     predictions = await client.predict('model', x)

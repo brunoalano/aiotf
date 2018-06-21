@@ -26,7 +26,9 @@
 
 ## Example
 ```python
-# TODO
+async with aiotf.AsyncTensorflowServing('localhost:9000') as client:
+  x = np.random.rand(10, 391, 21)
+  predictions = await client.predict('my_model_name', x)
 ```
 You can find more examples in the `examples/` subdirectory.
 
