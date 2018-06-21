@@ -1,0 +1,8 @@
+__title__ = 'aiotf'
+__description__ = 'Asyncio Tensorflow Serving Communication.'
+__url__ = 'https://github.com/brunoalano/aiotf'
+__version__ = '0.1.0'
+__author__ = 'Bruno Alano Medina'
+__author_email__ = 'bruno@neurologic.com.br'
+__license__ = 'MIT'
+__copyright__ = 'Copyright 2018 Bruno Alano Medina'

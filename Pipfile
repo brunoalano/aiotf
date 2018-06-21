@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+grpcio = "*"
+tensorflow = "*"
+aiogrpc = "*"
+
+[dev-packages]
+grpcio-tools = "*"
+codecov = "*"
+pytest-cov = "*"
+pytest-xdist = "*"
+sphinx = "*"
+"flake8" = "*"
+tox = "*"
+detox = "*"
+pytest-asyncio = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.6"
