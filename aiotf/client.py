@@ -12,6 +12,7 @@ class AsyncTensorflowServing(object):
   async def __aenter__(self):
     self._channel = insecure_channel(self.endpoint)
     self._stub = prediction_service_pb2.beta_create_PredictionService_stub(self._channel)
+    return self
 
   async def __aexit__(self, exc_type, exc, tb):
     await self._channel.close()
